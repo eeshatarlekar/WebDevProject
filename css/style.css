@@ -1,0 +1,196 @@
+
+*{
+   margin: 0;
+   padding: 0;
+
+}
+#header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar{
+    padding: 50px 0;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link{
+
+    color: white;
+}
+
+.navbar-dark .navbar.brand{
+    color: white;
+}
+.nav-item{
+    padding-left: 10px,0;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    color: orangered;
+    
+}
+#header .navbar-nav li.active > a{
+    color: orangered;
+}
+.main{
+    position: relative;
+    background-image: url(../images/pexels-everson-mayer-1481309.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding:200px 0 200px;
+  
+}
+.text-justify{
+    text-align: center;
+}
+.main h2{
+    text-align: center;
+    color: orangered;
+    
+    font-size: 40px;
+    font-weight: 900;
+}
+.test{
+    background-color: yellow;
+}
+
+.test2{
+    background-color: green;
+}
+.col-sm{
+    padding: 3%;
+    margin-top: 3%;
+}
+.main p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+i{
+    color: white;
+}
+
+.heading{
+    color: orangered;
+    background-color: white;
+    opacity: 0.5;
+   
+}
+ul li{
+    display: inline;
+    color: white;
+}
+ul li:hover{
+    display: inline;
+    color: white;
+    color: orangered;
+}
+
+ul li i:hover{
+    color: orangered;
+}
+.testdiv{
+    background-color: orchid;
+    height: 100%;
+}
+.testrow{
+    background-color: orangered;
+    height: 100%;
+}
+.testcol{
+    background-color: green;
+    height: 100%;
+}
+.musicmain{
+    background-image: url(../images/293-2939767_dark-red-wallpaper-red-and-black-blur-background.jpg);
+    padding:100px 0 ;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    [class*="col-xs-12"] {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.card{
+    background-color: rgba(131, 7, 7, 0.548) !important;
+    
+    color: rgb(214, 214, 214) !important;
+    font-family: 'Lato', sans-serif !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img{
+    padding: 20px;
+}
+.card-img-top {
+    padding: 20px;
+    
+}
+.card:hover{
+    
+}
+.customclass{
+   margin-top: 25px;
+}
+.img{
+    padding:0;
+
+}
+.whitebg{
+    background-color: white;
+    
+ 
+    
+}
+#profilepic{
+    width: 400px;
+    height:500px;
+    padding: 20px;
+    border-radius: 8px;
+}
+#musicmain1{
+    background-image: url(../images/293-2939767_dark-red-wallpaper-red-and-black-blur-background.jpg);
+    padding:100px 0 0 0 ;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer{
+    width: 100px;
+    height:100px;
+    background-color: whitesmoke;
+   
+}
+.noborder{
+   border: none !important;
+}
+.main .list-inline a{
+    text-decoration: none !important;
+}
+@media screen and (min-width: 800px) {
+    div.element {
+      margin: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 100%;
+    }
+  }
